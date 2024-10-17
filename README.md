@@ -1,21 +1,18 @@
-                                                         GET API:
+                                                         GET :
+Real-Life Example on Facebook:
+When you open your Facebook news feed, a GET API request is used. You are retrieving data like your 
+friends posts, comments, and updates from the server. You're only viewing the information without
+ creating  updating anything.
 
-If you have a GET API, you can use it to obtain data from a server, but you cannot create, update,
- or delete data. In this method, you are simply requesting information from the server.
-  The approach is stateless, meaning each request is independent, but it still requires 
-  a request to the server to retrieve data.
-
-Real Life Example:
-When you visit a weather website to check the current weather in your city, the backend uses 
-a GET request. You are only asking for information from the server without creating or updating any data.
+Example: When you refresh your news feed, all the posts are loaded onto your screen via a GET request.
 
                                                         POST:
 
- The POST method is used to create new resources on the server, such as adding a new entry or record.
+When you post a new status, upload a photo, or comment on something, a POST request is used. This sends
+ new information to the server and creates a new resource.
 
-Real Life Example:
-When you write a new blog post and publish it on a website, a POST request is sent to the server to create the new post.
- Pressing the submit button sends the data to the server.
+Example: You write a status update like "Feeling Happy" and post it. A POST request creates this new
+ post on the server.
 
                                                         PUT:
 
